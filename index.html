@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>A Casa Abandonada</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você e seus amigos decidem explorar uma casa abandonada. Entrar pela porta da frente ou pela janela?
+            </p>
+            <button class="btn-proximo" data-proximo="1">Porta da frente</button>
+            <button class="btn-proximo" data-proximo="2">Janela</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você entra e ouve um barulho estrondoso. Investigar o barulho ou sair correndo?</p>
+            <button class="btn-proximo" data-proximo="3">Investigar</button>
+            <button class="btn-proximo" data-proximo="4">Sair correndo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você entra e encpntra um diário. Ler o diário ou deixá-lo de lado?</p>
+            <button class="btn-proximo" data-proximo="5">Ler o diário</button>
+            <button class="btn-proximo" data-proximo="6">Deixá-lo de lado</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <h1>Você encontra um fantasma que te assusta e você foge.</h1>
+            <p>FIM</p>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <h1>Todos escapam, mas a casa a parece estar viva</h1>
+            <p>FIM</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <h1>Descobrem segredos sombrios da casa e a maldição que a envolve.</h1>
+            <p>FIM</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <h1>Um espírito aparece e os prende na casa para sempre.</h1>
+            <p>FIM</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
